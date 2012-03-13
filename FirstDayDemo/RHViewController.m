@@ -10,6 +10,9 @@
 
 @implementation RHViewController
 
+@synthesize label;
+@synthesize logo;
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -22,6 +25,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    _counter = 0;
 }
 
 - (void)viewDidUnload
@@ -55,6 +60,25 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (void)buttonTap:(id)sender {
+    _counter ++;
+    self.label.text = [NSString stringWithFormat:@"Taps: %d", _counter];
+    self.logo.center = CGPointMake(self.logo.center.x, self.logo.center.y + 10);
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    UITouch *touch = [touches anyObject];
+    
+    [UIView beginAnimations:nil context:nil];
+    self.logo.center = [touch locationInView:self.view];
+    [UIView commitAnimations];
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+    UITouch *touch = [touches anyObject];
+    self.logo.center = [touch locationInView:self.view];
 }
 
 @end

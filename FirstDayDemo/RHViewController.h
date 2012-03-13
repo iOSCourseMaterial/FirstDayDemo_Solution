@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RHViewController : UIViewController
+@interface RHViewController : UIViewController {
+    @private
+    int _counter;
+}
+
+@property (nonatomic, strong) IBOutlet UILabel *label;
+@property (nonatomic, strong) IBOutlet UIImageView *logo;
+
+- (IBAction)buttonTap:(id)sender;
 
 @end

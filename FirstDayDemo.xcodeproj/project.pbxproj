@@ -15,6 +15,7 @@
 		92B54289150ED35A00CCA560 /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B54288150ED35A00CCA560 /* RHAppDelegate.m */; };
 		92B5428C150ED35A00CCA560 /* RHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5428B150ED35A00CCA560 /* RHViewController.m */; };
 		92B5428F150ED35A00CCA560 /* RHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B5428D150ED35A00CCA560 /* RHViewController.xib */; };
+		92B54296150ED37F00CCA560 /* RoseLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B54295150ED37F00CCA560 /* RoseLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		92B54278150ED35A00CCA560 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		92B5427A150ED35A00CCA560 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		92B5427C150ED35A00CCA560 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		92B54280150ED35A00CCA560 /* FirstDayDemo-Info.plist */ = {isa = PBXFileReference; path = "FirstDayDemo-Info.plist"; sourceTree = "<group>"; };
+		92B54280150ED35A00CCA560 /* FirstDayDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstDayDemo-Info.plist"; sourceTree = "<group>"; };
 		92B54282150ED35A00CCA560 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92B54284150ED35A00CCA560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		92B54286150ED35A00CCA560 /* FirstDayDemo-Prefix.pch */ = {isa = PBXFileReference; path = "FirstDayDemo-Prefix.pch"; sourceTree = "<group>"; };
-		92B54287150ED35A00CCA560 /* RHAppDelegate.h */ = {isa = PBXFileReference; path = RHAppDelegate.h; sourceTree = "<group>"; };
+		92B54286150ED35A00CCA560 /* FirstDayDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstDayDemo-Prefix.pch"; sourceTree = "<group>"; };
+		92B54287150ED35A00CCA560 /* RHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHAppDelegate.h; sourceTree = "<group>"; };
 		92B54288150ED35A00CCA560 /* RHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHAppDelegate.m; sourceTree = "<group>"; };
-		92B5428A150ED35A00CCA560 /* RHViewController.h */ = {isa = PBXFileReference; path = RHViewController.h; sourceTree = "<group>"; };
+		92B5428A150ED35A00CCA560 /* RHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHViewController.h; sourceTree = "<group>"; };
 		92B5428B150ED35A00CCA560 /* RHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHViewController.m; sourceTree = "<group>"; };
 		92B5428E150ED35A00CCA560 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RHViewController.xib; sourceTree = "<group>"; };
+		92B54295150ED37F00CCA560 /* RoseLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoseLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		92B5427F150ED35A00CCA560 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92B54295150ED37F00CCA560 /* RoseLogo.png */,
 				92B54280150ED35A00CCA560 /* FirstDayDemo-Info.plist */,
 				92B54281150ED35A00CCA560 /* InfoPlist.strings */,
 				92B54284150ED35A00CCA560 /* main.m */,
@@ -151,6 +154,7 @@
 			files = (
 				92B54283150ED35A00CCA560 /* InfoPlist.strings in Resources */,
 				92B5428F150ED35A00CCA560 /* RHViewController.xib in Resources */,
+				92B54296150ED37F00CCA560 /* RoseLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
