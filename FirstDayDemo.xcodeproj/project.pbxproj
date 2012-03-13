@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92B54279150ED35A00CCA560 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B54278150ED35A00CCA560 /* UIKit.framework */; };
+		92B5427B150ED35A00CCA560 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B5427A150ED35A00CCA560 /* Foundation.framework */; };
+		92B5427D150ED35A00CCA560 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B5427C150ED35A00CCA560 /* CoreGraphics.framework */; };
+		92B54283150ED35A00CCA560 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92B54281150ED35A00CCA560 /* InfoPlist.strings */; };
+		92B54285150ED35A00CCA560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B54284150ED35A00CCA560 /* main.m */; };
+		92B54289150ED35A00CCA560 /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B54288150ED35A00CCA560 /* RHAppDelegate.m */; };
+		92B5428C150ED35A00CCA560 /* RHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5428B150ED35A00CCA560 /* RHViewController.m */; };
+		92B5428F150ED35A00CCA560 /* RHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B5428D150ED35A00CCA560 /* RHViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92B54274150ED35A00CCA560 /* FirstDayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstDayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B54278150ED35A00CCA560 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92B5427A150ED35A00CCA560 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92B5427C150ED35A00CCA560 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92B54280150ED35A00CCA560 /* FirstDayDemo-Info.plist */ = {isa = PBXFileReference; path = "FirstDayDemo-Info.plist"; sourceTree = "<group>"; };
+		92B54282150ED35A00CCA560 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92B54284150ED35A00CCA560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92B54286150ED35A00CCA560 /* FirstDayDemo-Prefix.pch */ = {isa = PBXFileReference; path = "FirstDayDemo-Prefix.pch"; sourceTree = "<group>"; };
+		92B54287150ED35A00CCA560 /* RHAppDelegate.h */ = {isa = PBXFileReference; path = RHAppDelegate.h; sourceTree = "<group>"; };
+		92B54288150ED35A00CCA560 /* RHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHAppDelegate.m; sourceTree = "<group>"; };
+		92B5428A150ED35A00CCA560 /* RHViewController.h */ = {isa = PBXFileReference; path = RHViewController.h; sourceTree = "<group>"; };
+		92B5428B150ED35A00CCA560 /* RHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHViewController.m; sourceTree = "<group>"; };
+		92B5428E150ED35A00CCA560 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RHViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92B54271150ED35A00CCA560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B54279150ED35A00CCA560 /* UIKit.framework in Frameworks */,
+				92B5427B150ED35A00CCA560 /* Foundation.framework in Frameworks */,
+				92B5427D150ED35A00CCA560 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92B54269150ED35A00CCA560 = {
+			isa = PBXGroup;
+			children = (
+				92B5427E150ED35A00CCA560 /* FirstDayDemo */,
+				92B54277150ED35A00CCA560 /* Frameworks */,
+				92B54275150ED35A00CCA560 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92B54275150ED35A00CCA560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B54274150ED35A00CCA560 /* FirstDayDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B54277150ED35A00CCA560 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92B54278150ED35A00CCA560 /* UIKit.framework */,
+				92B5427A150ED35A00CCA560 /* Foundation.framework */,
+				92B5427C150ED35A00CCA560 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92B5427E150ED35A00CCA560 /* FirstDayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				92B54287150ED35A00CCA560 /* RHAppDelegate.h */,
+				92B54288150ED35A00CCA560 /* RHAppDelegate.m */,
+				92B5428A150ED35A00CCA560 /* RHViewController.h */,
+				92B5428B150ED35A00CCA560 /* RHViewController.m */,
+				92B5428D150ED35A00CCA560 /* RHViewController.xib */,
+				92B5427F150ED35A00CCA560 /* Supporting Files */,
+			);
+			path = FirstDayDemo;
+			sourceTree = "<group>";
+		};
+		92B5427F150ED35A00CCA560 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92B54280150ED35A00CCA560 /* FirstDayDemo-Info.plist */,
+				92B54281150ED35A00CCA560 /* InfoPlist.strings */,
+				92B54284150ED35A00CCA560 /* main.m */,
+				92B54286150ED35A00CCA560 /* FirstDayDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92B54273150ED35A00CCA560 /* FirstDayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B54292150ED35A00CCA560 /* Build configuration list for PBXNativeTarget "FirstDayDemo" */;
+			buildPhases = (
+				92B54270150ED35A00CCA560 /* Sources */,
+				92B54271150ED35A00CCA560 /* Frameworks */,
+				92B54272150ED35A00CCA560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstDayDemo;
+			productName = FirstDayDemo;
+			productReference = 92B54274150ED35A00CCA560 /* FirstDayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92B5426B150ED35A00CCA560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Rose-Hulman Institute of Technology";
+			};
+			buildConfigurationList = 92B5426E150ED35A00CCA560 /* Build configuration list for PBXProject "FirstDayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92B54269150ED35A00CCA560;
+			productRefGroup = 92B54275150ED35A00CCA560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B54273150ED35A00CCA560 /* FirstDayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92B54272150ED35A00CCA560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B54283150ED35A00CCA560 /* InfoPlist.strings in Resources */,
+				92B5428F150ED35A00CCA560 /* RHViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92B54270150ED35A00CCA560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B54285150ED35A00CCA560 /* main.m in Sources */,
+				92B54289150ED35A00CCA560 /* RHAppDelegate.m in Sources */,
+				92B5428C150ED35A00CCA560 /* RHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92B54281150ED35A00CCA560 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B54282150ED35A00CCA560 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92B5428D150ED35A00CCA560 /* RHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B5428E150ED35A00CCA560 /* en */,
+			);
+			name = RHViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92B54290150ED35A00CCA560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92B54291150ED35A00CCA560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92B54293150ED35A00CCA560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstDayDemo/FirstDayDemo-Prefix.pch";
+				INFOPLIST_FILE = "FirstDayDemo/FirstDayDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92B54294150ED35A00CCA560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstDayDemo/FirstDayDemo-Prefix.pch";
+				INFOPLIST_FILE = "FirstDayDemo/FirstDayDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92B5426E150ED35A00CCA560 /* Build configuration list for PBXProject "FirstDayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B54290150ED35A00CCA560 /* Debug */,
+				92B54291150ED35A00CCA560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B54292150ED35A00CCA560 /* Build configuration list for PBXNativeTarget "FirstDayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B54293150ED35A00CCA560 /* Debug */,
+				92B54294150ED35A00CCA560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92B5426B150ED35A00CCA560 /* Project object */;
+}
