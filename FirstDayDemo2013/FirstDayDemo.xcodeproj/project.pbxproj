@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDCC745C17D812C000B795F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCC745B17D812C000B795F7 /* UIKit.framework */; };
+		FDCC745E17D812C000B795F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCC745D17D812C000B795F7 /* Foundation.framework */; };
+		FDCC746017D812C000B795F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCC745F17D812C000B795F7 /* CoreGraphics.framework */; };
+		FDCC746617D812C000B795F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDCC746417D812C000B795F7 /* InfoPlist.strings */; };
+		FDCC746817D812C000B795F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC746717D812C000B795F7 /* main.m */; };
+		FDCC746C17D812C000B795F7 /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC746B17D812C000B795F7 /* RHAppDelegate.m */; };
+		FDCC746E17D812C000B795F7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCC746D17D812C000B795F7 /* Default.png */; };
+		FDCC747017D812C000B795F7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCC746F17D812C000B795F7 /* Default@2x.png */; };
+		FDCC747217D812C000B795F7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCC747117D812C000B795F7 /* Default-568h@2x.png */; };
+		FDCC747917D812F000B795F7 /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCC747817D812F000B795F7 /* iPhoneStoryboard.storyboard */; };
+		FDCC747C17D8147D00B795F7 /* RHBasicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC747B17D8147D00B795F7 /* RHBasicsViewController.m */; };
+		FDCC747F17D815D700B795F7 /* RHTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC747E17D815D700B795F7 /* RHTouchViewController.m */; };
+		FDCC748117D8160D00B795F7 /* RoseLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCC748017D8160D00B795F7 /* RoseLogo.png */; };
+		FDCC748417D817BA00B795F7 /* RHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC748317D817BA00B795F7 /* RHTableViewController.m */; };
+		FDCC748617D81A0C00B795F7 /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCC748517D81A0C00B795F7 /* iPadStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDCC745817D812C000B795F7 /* FirstDayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstDayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCC745B17D812C000B795F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDCC745D17D812C000B795F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDCC745F17D812C000B795F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDCC746317D812C000B795F7 /* FirstDayDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstDayDemo-Info.plist"; sourceTree = "<group>"; };
+		FDCC746517D812C000B795F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDCC746717D812C000B795F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDCC746917D812C000B795F7 /* FirstDayDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstDayDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FDCC746A17D812C000B795F7 /* RHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHAppDelegate.h; sourceTree = "<group>"; };
+		FDCC746B17D812C000B795F7 /* RHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHAppDelegate.m; sourceTree = "<group>"; };
+		FDCC746D17D812C000B795F7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FDCC746F17D812C000B795F7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FDCC747117D812C000B795F7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FDCC747817D812F000B795F7 /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
+		FDCC747A17D8147D00B795F7 /* RHBasicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHBasicsViewController.h; sourceTree = "<group>"; };
+		FDCC747B17D8147D00B795F7 /* RHBasicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHBasicsViewController.m; sourceTree = "<group>"; };
+		FDCC747D17D815D700B795F7 /* RHTouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTouchViewController.h; sourceTree = "<group>"; };
+		FDCC747E17D815D700B795F7 /* RHTouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTouchViewController.m; sourceTree = "<group>"; };
+		FDCC748017D8160D00B795F7 /* RoseLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoseLogo.png; sourceTree = "<group>"; };
+		FDCC748217D817BA00B795F7 /* RHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTableViewController.h; sourceTree = "<group>"; };
+		FDCC748317D817BA00B795F7 /* RHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTableViewController.m; sourceTree = "<group>"; };
+		FDCC748517D81A0C00B795F7 /* iPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPadStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDCC745517D812C000B795F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCC745C17D812C000B795F7 /* UIKit.framework in Frameworks */,
+				FDCC745E17D812C000B795F7 /* Foundation.framework in Frameworks */,
+				FDCC746017D812C000B795F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDCC744F17D812C000B795F7 = {
+			isa = PBXGroup;
+			children = (
+				FDCC746117D812C000B795F7 /* FirstDayDemo */,
+				FDCC745A17D812C000B795F7 /* Frameworks */,
+				FDCC745917D812C000B795F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDCC745917D812C000B795F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC745817D812C000B795F7 /* FirstDayDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDCC745A17D812C000B795F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC745B17D812C000B795F7 /* UIKit.framework */,
+				FDCC745D17D812C000B795F7 /* Foundation.framework */,
+				FDCC745F17D812C000B795F7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDCC746117D812C000B795F7 /* FirstDayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC748017D8160D00B795F7 /* RoseLogo.png */,
+				FDCC746A17D812C000B795F7 /* RHAppDelegate.h */,
+				FDCC746B17D812C000B795F7 /* RHAppDelegate.m */,
+				FDCC746217D812C000B795F7 /* Supporting Files */,
+				FDCC747817D812F000B795F7 /* iPhoneStoryboard.storyboard */,
+				FDCC747A17D8147D00B795F7 /* RHBasicsViewController.h */,
+				FDCC747B17D8147D00B795F7 /* RHBasicsViewController.m */,
+				FDCC747D17D815D700B795F7 /* RHTouchViewController.h */,
+				FDCC747E17D815D700B795F7 /* RHTouchViewController.m */,
+				FDCC748217D817BA00B795F7 /* RHTableViewController.h */,
+				FDCC748317D817BA00B795F7 /* RHTableViewController.m */,
+				FDCC748517D81A0C00B795F7 /* iPadStoryboard.storyboard */,
+			);
+			path = FirstDayDemo;
+			sourceTree = "<group>";
+		};
+		FDCC746217D812C000B795F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC746317D812C000B795F7 /* FirstDayDemo-Info.plist */,
+				FDCC746417D812C000B795F7 /* InfoPlist.strings */,
+				FDCC746717D812C000B795F7 /* main.m */,
+				FDCC746917D812C000B795F7 /* FirstDayDemo-Prefix.pch */,
+				FDCC746D17D812C000B795F7 /* Default.png */,
+				FDCC746F17D812C000B795F7 /* Default@2x.png */,
+				FDCC747117D812C000B795F7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDCC745717D812C000B795F7 /* FirstDayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCC747517D812C000B795F7 /* Build configuration list for PBXNativeTarget "FirstDayDemo" */;
+			buildPhases = (
+				FDCC745417D812C000B795F7 /* Sources */,
+				FDCC745517D812C000B795F7 /* Frameworks */,
+				FDCC745617D812C000B795F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstDayDemo;
+			productName = FirstDayDemo;
+			productReference = FDCC745817D812C000B795F7 /* FirstDayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDCC745017D812C000B795F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Rose-Hulman";
+			};
+			buildConfigurationList = FDCC745317D812C000B795F7 /* Build configuration list for PBXProject "FirstDayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDCC744F17D812C000B795F7;
+			productRefGroup = FDCC745917D812C000B795F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDCC745717D812C000B795F7 /* FirstDayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDCC745617D812C000B795F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCC746617D812C000B795F7 /* InfoPlist.strings in Resources */,
+				FDCC746E17D812C000B795F7 /* Default.png in Resources */,
+				FDCC747017D812C000B795F7 /* Default@2x.png in Resources */,
+				FDCC747217D812C000B795F7 /* Default-568h@2x.png in Resources */,
+				FDCC747917D812F000B795F7 /* iPhoneStoryboard.storyboard in Resources */,
+				FDCC748117D8160D00B795F7 /* RoseLogo.png in Resources */,
+				FDCC748617D81A0C00B795F7 /* iPadStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDCC745417D812C000B795F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCC746817D812C000B795F7 /* main.m in Sources */,
+				FDCC746C17D812C000B795F7 /* RHAppDelegate.m in Sources */,
+				FDCC747C17D8147D00B795F7 /* RHBasicsViewController.m in Sources */,
+				FDCC747F17D815D700B795F7 /* RHTouchViewController.m in Sources */,
+				FDCC748417D817BA00B795F7 /* RHTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDCC746417D812C000B795F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCC746517D812C000B795F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDCC747317D812C000B795F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDCC747417D812C000B795F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDCC747617D812C000B795F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstDayDemo/FirstDayDemo-Prefix.pch";
+				INFOPLIST_FILE = "FirstDayDemo/FirstDayDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDCC747717D812C000B795F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstDayDemo/FirstDayDemo-Prefix.pch";
+				INFOPLIST_FILE = "FirstDayDemo/FirstDayDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDCC745317D812C000B795F7 /* Build configuration list for PBXProject "FirstDayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCC747317D812C000B795F7 /* Debug */,
+				FDCC747417D812C000B795F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCC747517D812C000B795F7 /* Build configuration list for PBXNativeTarget "FirstDayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCC747617D812C000B795F7 /* Debug */,
+				FDCC747717D812C000B795F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDCC745017D812C000B795F7 /* Project object */;
+}
