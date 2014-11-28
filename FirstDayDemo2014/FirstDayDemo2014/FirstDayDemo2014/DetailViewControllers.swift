@@ -37,6 +37,11 @@ class TouchesViewController : UIViewController {
         logoImageView.center = touch.locationInView(self.view)
         UIView.commitAnimations()
     }
+
+    override func touchesMoved(touches: NSSet, withEvent event: UIEvent) {
+        let touch = touches.anyObject() as UITouch
+        logoImageView.center = touch.locationInView(self.view)
+    }
 }
 
 
